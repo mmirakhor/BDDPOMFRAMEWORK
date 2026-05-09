@@ -39,7 +39,7 @@ class LeavePage:
  def select_cal(self,cal):
      self.click_cal(cal)
      time.sleep(5)
- 
+     print("mukesh")
  def select_leave_status(self):
    self.driver.find_element(*self.leave_status).click()
 
