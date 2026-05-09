@@ -34,7 +34,7 @@ class LeavePage:
    return self.driver.find_element(*self.leave_list).text
  
  def click_cal(self,cal):
-   self.calender.clear()
+   
    self.driver.find_element(*self.calender).send_keys(cal)
 
  def select_cal(self,cal):
